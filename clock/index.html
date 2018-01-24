@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Title</title>
+    <meta name="description" content="Description">
+    <meta name="author" content="Author">
+    <link href="styles/global.css" rel="stylesheet">
+</head>
+
+<body>
+
+    
+<script>
+var date = new Date();
+var hours = date.getHours();
+if ( (hours < 7) || (hours > 18) ) {
+ document.write("<img SRC='images/NIGHT.png'>")
+} else {
+ document.write("<img SRC='images/DAY.png'>");
+}
+</script>
+    
+    
+</body>
+</html>
